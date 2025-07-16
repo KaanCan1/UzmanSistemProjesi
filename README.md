@@ -1,14 +1,19 @@
 # Uzman Sistem Projesi
 
-Bu proje, PHP ve Python kullanılarak geliştirilmiş bir uzman sistem öneri platformudur. Kullanıcıların web üzerinden cevapladığı sorular, arka planda bir Python betiğine gönderilerek değerlendirilir. Sistem, kullanıcı cevaplarına göre veritabanındaki önerileri analiz eder ve en uygun tavsiyeyi sunar.
+Bu proje, PHP, Python ve MySQL kullanılarak geliştirilmiş bir uzman sistem öneri platformudur.  
+Kullanıcının verdiği yanıtlara göre sistem veritabanındaki kayıtları analiz eder ve kişiselleştirilmiş öneriler sunar.
 
-Özellikler:
-Web Arayüzü: index.php üzerinden kullanıcıdan veri alır.
-Python Karar Motoru: uzman_sistem.py, kullanıcı yanıtlarını değerlendirerek veritabanı üzerinden öneri üretir.
-MySQL Veritabanı: Öneri ve soru-cevap eşleşmelerini saklar.
-JSON ile Veri İletişimi: PHP'den Python'a veri JSON formatında iletilir.
+## Proje Özellikleri
 
-Kullanım Alanları:
-Psikolojik danışmanlık sistemleri
-Kişiselleştirilmiş öneri motorları
-Karar destek sistemleri
+- Web Arayüzü: `index.php` üzerinden kullanıcı verisi toplanır.  
+- Python Karar Motoru: `uzman_sistem.py`, kullanıcının cevaplarını analiz ederek öneri üretir.  
+- MySQL Veritabanı: Soru, cevap ve öneri eşleşmelerini barındırır.  
+- JSON Tabanlı Veri İletimi: PHP formundan Python betiğine veri JSON formatında gönderilir.
+
+---
+
+## Amaç
+
+Bu sistem; psikolojik danışmanlık, kişisel gelişim, rehberlik gibi alanlarda, kullanıcılara kısa bir form yoluyla öneriler sunmak için tasarlanmıştır.
+
+---
